@@ -1,90 +1,90 @@
 [{
   "_id": {
-    "$oid": "68214104dfcc2d45dd88ab26"
-  },
-  "title": "Git",
-  "description": "Git es una buena herramienta para trabajar en equipo",
-  "curso": {
-    "$oid": "68211b77f67143dbfe7440c8"
-  },
-  "comentarios": [],
-  "creationdate": {
-    "$date": "2025-05-12T00:29:56.965Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "682144b7dfcc2d45dd88ab2c"
-  },
-  "title": "Sawgger",
-  "description": "Sirve para que podamos hacer la documentacion en nuestras rutas.",
-  "curso": {
-    "$oid": "68211b77f67143dbfe7440c8"
-  },
-  "comentarios": [],
-  "creationdate": {
-    "$date": "2025-05-12T00:45:43.689Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6821453adfcc2d45dd88ab2f"
-  },
-  "title": "Git status",
-  "description": "El git status nos sirve para ver que es lo que estamos subiendo.",
-  "curso": {
-    "$oid": "68211b77f67143dbfe7440c8"
-  },
-  "comentarios": [],
-  "creationdate": {
-    "$date": "2025-05-12T00:47:54.937Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "682145a5dfcc2d45dd88ab32"
-  },
-  "title": "Mongo DB",
-  "description": "Es una base de datos no relacionales, diseñada para modelos especificos",
-  "curso": {
-    "$oid": "68211b77f67143dbfe7440cb"
-  },
-  "comentarios": [],
-  "creationdate": {
-    "$date": "2025-05-12T00:49:41.076Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68214604dfcc2d45dd88ab35"
-  },
-  "title": "Hooks",
-  "description": "Funciones que nos ayudan a manipular estados del componenete.",
-  "curso": {
-    "$oid": "68211b77f67143dbfe7440cb"
-  },
-  "comentarios": [],
-  "creationdate": {
-    "$date": "2025-05-12T00:51:16.939Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "682146b4dfcc2d45dd88ab38"
+    "$oid": "6821752fb56be4fbb48d0156"
   },
   "title": "Axios",
   "description": "Hace condultas.",
   "curso": {
-    "$oid": "68211b77f67143dbfe7440ce"
+    "$oid": "682171d3348bb42ff19c7849"
   },
   "comentarios": [],
   "creationdate": {
-    "$date": "2025-05-12T00:54:12.604Z"
+    "$date": "2025-05-12T04:12:31.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68217588b56be4fbb48d0171"
+  },
+  "title": "Git",
+  "description": "Es  bueno para trabajar en equipo",
+  "curso": {
+    "$oid": "682171d3348bb42ff19c7849"
+  },
+  "comentarios": [],
+  "creationdate": {
+    "$date": "2025-05-12T04:14:00.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682175b9b56be4fbb48d017e"
+  },
+  "title": "Mongo DB",
+  "description": "Es una base de datos no relacionesles.",
+  "curso": {
+    "$oid": "682171d3348bb42ff19c7843"
+  },
+  "comentarios": [],
+  "creationdate": {
+    "$date": "2025-05-12T04:14:49.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821762fb56be4fbb48d0181"
+  },
+  "title": "Hooks",
+  "description": "Funciones que nos ayudan a manipular resultados del componente.",
+  "curso": {
+    "$oid": "682171d3348bb42ff19c7843"
+  },
+  "comentarios": [],
+  "creationdate": {
+    "$date": "2025-05-12T04:16:47.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6821767fb56be4fbb48d0196"
+  },
+  "title": "Git status",
+  "description": "Este comendo lista lo que subiremos a un repositorio.",
+  "curso": {
+    "$oid": "682171d3348bb42ff19c7846"
+  },
+  "comentarios": [],
+  "creationdate": {
+    "$date": "2025-05-12T04:18:07.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682176f1b56be4fbb48d01db"
+  },
+  "title": "Sawgger",
+  "description": "Nos ayuda hacer la documentacion de la rutas.",
+  "curso": {
+    "$oid": "682171d3348bb42ff19c7846"
+  },
+  "comentarios": [],
+  "creationdate": {
+    "$date": "2025-05-12T04:20:01.082Z"
   },
   "__v": 0
 }]

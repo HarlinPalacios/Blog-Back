@@ -1,112 +1,42 @@
 [{
   "_id": {
-    "$oid": "68214127dfcc2d45dd88ab29"
+    "$oid": "68217749b56be4fbb48d022c"
+  },
+  "usuario": "Kelly Alvarez",
+  "comment": "No me sabia ese dato.",
+  "publication": {
+    "$oid": "6821767fb56be4fbb48d0196"
+  },
+  "commentdate": {
+    "$date": "2025-05-12T04:21:29.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68217776b56be4fbb48d0263"
   },
   "usuario": "Seydi de Leon",
-  "comment": "Git es recomendable",
+  "comment": "Buen dato",
   "publication": {
-    "$oid": "68214104dfcc2d45dd88ab26"
+    "$oid": "6821767fb56be4fbb48d0196"
   },
   "commentdate": {
-    "$date": "2025-05-12T00:30:31.591Z"
+    "$date": "2025-05-12T04:22:14.653Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "682146ebdfcc2d45dd88ab3b"
+    "$oid": "682177b27717068fb4d327f5"
   },
-  "usuario": "Seydi de Leon",
-  "comment": "Git es recomendable",
+  "usuario": "Ivan Morales",
+  "comment": "Gracias.",
   "publication": {
-    "$oid": "68214104dfcc2d45dd88ab26"
+    "$oid": "68217588b56be4fbb48d0171"
   },
   "commentdate": {
-    "$date": "2025-05-12T00:55:07.810Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68214705dfcc2d45dd88ab3e"
-  },
-  "usuario": "Donoval Lopez",
-  "comment": "Amo git.",
-  "publication": {
-    "$oid": "68214104dfcc2d45dd88ab26"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:55:33.600Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6821474bdfcc2d45dd88ab41"
-  },
-  "usuario": "Saul",
-  "comment": "Sawgger no me gusta usarlo, prefiero otro.",
-  "publication": {
-    "$oid": "682144b7dfcc2d45dd88ab2c"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:56:43.387Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6821476cdfcc2d45dd88ab44"
-  },
-  "usuario": "Balan Catalan",
-  "comment": "Como no e va a gustar sawgger",
-  "publication": {
-    "$oid": "682144b7dfcc2d45dd88ab2c"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:57:16.589Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "682147abdfcc2d45dd88ab47"
-  },
-  "usuario": "Kelly Cordoba",
-  "comment": "Ese comenado no me lo sabia.",
-  "publication": {
-    "$oid": "682145a5dfcc2d45dd88ab32"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:58:19.939Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "682147e0dfcc2d45dd88ab4a"
-  },
-  "usuario": "Patricia Corado",
-  "comment": "Los hook ayudan bastante.",
-  "publication": {
-    "$oid": "68214604dfcc2d45dd88ab35"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:59:12.494Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68214809dfcc2d45dd88ab4d"
-  },
-  "usuario": "Yesica Morales",
-  "comment": "Buenisima",
-  "publication": {
-    "$oid": "68214604dfcc2d45dd88ab35"
-  },
-  "commentdate": {
-    "$date": "2025-05-12T00:59:53.692Z"
+    "$date": "2025-05-12T04:23:14.457Z"
   },
   "__v": 0
 }]
