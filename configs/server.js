@@ -9,6 +9,7 @@ import publiRoutes from "../src/publics/public.routes.js";
 import filtrarRoutes from "../src/publics/public.routes.js";
 import commentRoutes from "../src/comments/comment.routes.js";
 import { courseDef } from "../src/publics/public.controller.js";
+import { swaggerDocs, swaggerUi } from "./sawgger.js";
 
 
 const configs = (app) => {
@@ -22,6 +23,8 @@ const routes = (app) => {
     app.use("/blogAprende/v1/public", publiRoutes)
     app.use("/blogAprende/v1/filtrar", filtrarRoutes);
     app.use("/blogAprende/v1/comment", commentRoutes)
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs))
+
 }
 
 const conectarDB = async () => {
