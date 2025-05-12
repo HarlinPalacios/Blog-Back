@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "68211b77f67143dbfe7440c8"
+  },
+  "name": "Taller",
+  "description": "Curso de Taller práctico",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68211b77f67143dbfe7440cb"
+  },
+  "name": "Tecnologia",
+  "description": "Curso sobre avances tecnológicos",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68211b77f67143dbfe7440ce"
+  },
+  "name": "Practicas Supervisadas",
+  "description": "Curso de prácticas supervisadas en el campo",
+  "__v": 0
+}]
