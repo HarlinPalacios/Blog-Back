@@ -122,30 +122,42 @@ export const filtrar = async (req, res) => {
     }
 };
 
-export const courseDef = async () => {
+// Controlador para agregar un curso
+export const addCourse = async (req, res) => {
     try {
-        const defaultCourses = [
-            { name: "Taller", description: "Curso de Taller práctico" },
-            { name: "Tecnologia", description: "Curso sobre avances tecnológicos" },
-            { name: "Practicas Supervisadas", description: "Curso de prácticas supervisadas en el campo" },
-        ];
+        // Extraemos los datos del curso desde el cuerpo de la solicitud
+        const { name, description } = req.body;
 
-        for (const course of defaultCourses) {
-            // Verificar si el curso ya existe
-            const courseExists = await Curso.findOne({ name: course.name });
-
-            if (courseExists) {
-                console.log(`El curso 
-                    "${course.name}" ya existe, no se puede crear otro.`);
-                continue;
-            }
-
-            // Crear el curso si no existe
-            const newCourse = new Curso(course);
-            await newCourse.save();
-            console.log(`Curso "${course.name}" creado exitosamente.`);
+        // Validamos que los datos sean válidos
+        if (!name || !description) {
+            return res.status(400).json({
+                message: "El nombre y la descripción del curso son obligatorios",
+            });
         }
+
+        // Verificar si el curso ya existe
+        const courseExists = await Curso.findOne({ name });
+        if (courseExists) {
+            return res.status(400).json({
+                message: `El curso "${name}" ya existe, no se puede crear otro.`,
+            });
+        }
+
+        // Crear el curso si no existe
+        const newCourse = new Curso({ name, description });
+        await newCourse.save();
+
+        // Enviar respuesta exitosa
+        return res.status(201).json({
+            message: `Curso "${name}" creado exitosamente.`,
+            course: newCourse,
+        });
     } catch (error) {
-        console.error("Error al verificar o crear los cursos predeterminados:", error.message);
+        console.error("Error al crear el curso:", error.message);
+        return res.status(500).json({
+            message: "Error al crear el curso",
+            error: error.message,
+        });
     }
 };
+

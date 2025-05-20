@@ -8,7 +8,6 @@ import { dbConnection } from "./mongo.js";
 import publiRoutes from "../src/publics/public.routes.js";
 import filtrarRoutes from "../src/publics/public.routes.js";
 import commentRoutes from "../src/comments/comment.routes.js";
-import { courseDef } from "../src/publics/public.controller.js";
 import { swaggerDocs, swaggerUi } from "./sawgger.js";
 
 
@@ -41,7 +40,6 @@ export const initServer = () => {
         configs(app)
         conectarDB()
         routes(app)
-        courseDef()
         app.listen(process.env.PORT, () => {
             console.log(`Server is running on http://localhost:${process.env.PORT}`);
         });

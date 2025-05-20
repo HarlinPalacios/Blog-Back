@@ -1,5 +1,5 @@
 import express from 'express';
-import { createPubli, getPublic, filtrar } from './public.controller.js';
+import { createPubli, getPublic, filtrar, addCourse } from './public.controller.js';
 
 const router = express.Router();
 
@@ -55,5 +55,7 @@ router.get('/:curso', filtrar);
  *         description: Publication created successfully
  */
 router.post('/crearPublic', createPubli);
+
+router.post("/course", addCourse);
 
 export default router;

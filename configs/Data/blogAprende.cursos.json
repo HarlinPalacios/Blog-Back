@@ -1,24 +1,24 @@
 [{
   "_id": {
-    "$oid": "68211b77f67143dbfe7440c8"
+    "$oid": "682ceb20fc372dd8b7d8eaf4"
   },
   "name": "Taller",
-  "description": "Curso de Taller práctico",
+  "description": "Codigo de alto rendimiento",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "68211b77f67143dbfe7440cb"
+    "$oid": "682cebcffc372dd8b7d8eb07"
   },
   "name": "Tecnologia",
-  "description": "Curso sobre avances tecnológicos",
+  "description": "Avances tecnológicos más recientes y sus aplicaciones en diversos sectores.",
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "68211b77f67143dbfe7440ce"
+    "$oid": "682cec17fc372dd8b7d8eb0a"
   },
   "name": "Practicas Supervisadas",
-  "description": "Curso de prácticas supervisadas en el campo",
+  "description": "Modalidad educativa en la que los estudiantes aplican los conocimientos adquiridos en el aula en un entorno real de trabajo.",
   "__v": 0
 }]
