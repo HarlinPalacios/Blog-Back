@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "4fa58453-79d0-413b-a89d-068ba67cc5e8",
+		"_postman_id": "198b9647-ce01-4aab-bb5f-f9444a9ca466",
 		"name": "Blog",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "41829725"
+		"_exporter_id": "42532049"
 	},
 	"item": [
 		{
@@ -152,6 +152,45 @@
 								"v1",
 								"comment",
 								"681c4b5b1cadbca527b533a0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Curso",
+			"item": [
+				{
+					"name": "Agregar curso",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Practicas Supervisadas\",\r\n    \"description\": \"Modalidad educativa en la que los estudiantes aplican los conocimientos adquiridos en el aula en un entorno real de trabajo.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3003/blogAprende/v1/public/course",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"blogAprende",
+								"v1",
+								"public",
+								"course"
 							]
 						}
 					},
