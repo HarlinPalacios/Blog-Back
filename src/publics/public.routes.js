@@ -56,6 +56,33 @@ router.get('/:curso', filtrar);
  */
 router.post('/crearPublic', createPubli);
 
+/**
+ * @swagger
+ * /course:
+ *   post:
+ *     summary: Crea un nuevo curso
+ *     tags:
+ *       - Courses
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - title
+ *               - description
+ *             properties:
+ *               title:
+ *                 type: string
+ *                 example: Curso de Node.js
+ *               description:
+ *                 type: string
+ *                 example: Aprende Node.js desde cero
+ *     responses:
+ *       201:
+ *         description: Curso creado exitosamente
+ */
 router.post("/course", addCourse);
 
 export default router;
