@@ -5,7 +5,7 @@
   "title": "Axios",
   "description": "Hace condultas.",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7849"
+    "$oid": "682ceb20fc372dd8b7d8eaf4"
   },
   "comentarios": [],
   "creationdate": {
@@ -20,7 +20,7 @@
   "title": "Git",
   "description": "Es  bueno para trabajar en equipo",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7849"
+    "$oid": "682ceb20fc372dd8b7d8eaf4"
   },
   "comentarios": [],
   "creationdate": {
@@ -35,7 +35,7 @@
   "title": "Mongo DB",
   "description": "Es una base de datos no relacionesles.",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7843"
+    "$oid": "682cebcffc372dd8b7d8eb07"
   },
   "comentarios": [],
   "creationdate": {
@@ -50,7 +50,7 @@
   "title": "Hooks",
   "description": "Funciones que nos ayudan a manipular resultados del componente.",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7843"
+    "$oid": "682cebcffc372dd8b7d8eb07"
   },
   "comentarios": [],
   "creationdate": {
@@ -65,7 +65,7 @@
   "title": "Git status",
   "description": "Este comendo lista lo que subiremos a un repositorio.",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7846"
+    "$oid": "682cec17fc372dd8b7d8eb0a"
   },
   "comentarios": [],
   "creationdate": {
@@ -80,7 +80,7 @@
   "title": "Sawgger",
   "description": "Nos ayuda hacer la documentacion de la rutas.",
   "curso": {
-    "$oid": "682171d3348bb42ff19c7846"
+    "$oid": "682cec17fc372dd8b7d8eb0a"
   },
   "comentarios": [],
   "creationdate": {
